@@ -4,13 +4,20 @@ body {
     padding: 0;
     height: 100vh; /* Full viewport height */
     width: 100vw; /* Full viewport width */
-    background-image: url('https://www.brit.co/media-library/french-riviera.jpg?id=55295120&width=980');
+    background-image: url('https://wallpaperaccess.com/full/254381.jpg');
     background-size: cover; /* Scale image to cover entire area */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent tiling */
     background-attachment: fixed; /* Keep image fixed during scroll */
     font-family: Arial, sans-serif;
     color: black;
+}
+.logo {    
+    float: left;
+}
+form > .search {    
+    float: right;
+    width: max-content;
 }
 nav {
     width: 100%;
@@ -27,24 +34,16 @@ nav {
 }
 nav ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-decoration: none;
-    list-style: none;
-    color: #fff;    
+    flex-wrap: wrap;    
+    list-style: none;   
 }
-nav ul li {      
-    display: inline-flex;       
-    list-style: none;
-    text-align: center;
+nav li {    
+    text-decoration: none;       
+    padding-inline: 1rem;
     color: #fff;       
 }
-nav ul li:hover {
+nav li:hover {
     color: #21c1f1;
     cursor: pointer;
 }
-.searchIn {
-    display: flex;
-    justify-content: end;
-    width: max-content;
-}
+
