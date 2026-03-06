@@ -12,13 +12,6 @@ body {
     font-family: Arial, sans-serif;
     color: black;
 }
-.logo {    
-    float: left;
-}
-form > .search {    
-    float: right;
-    width: max-content;
-}
 nav {
     width: 100%;
     height:75px;
@@ -26,8 +19,7 @@ nav {
     color:#fff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 0px 20px;
+    align-items: center;    
     position: fixed;
     top: 0;
     z-index: 1;
@@ -35,15 +27,60 @@ nav {
 nav ul {
     display: flex;
     flex-wrap: wrap;    
-    list-style: none;   
+    list-style: none;
+    color: #fff;  
 }
-nav li {    
+nav li a {    
     text-decoration: none;       
     padding-inline: 1rem;
     color: #fff;       
 }
-nav li:hover {
+nav li a:hover {
     color: #21c1f1;
     cursor: pointer;
 }
-
+.logo {         
+    float: left;
+    padding-right: 25rem;
+}
+.logo span style {
+    color: #fff;
+}
+form div {    
+    width: max-content;
+    margin-left: 20rem;
+    padding: 10px;
+    border-radius: 19px;
+    background: #f6f6f6;
+}
+.search input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #168baf;
+    flex: 1;
+}
+.search button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #168baf;    
+}
+.search button:hover {
+    padding: 15px;
+    font-size: 17px;
+    color:#ffffff11;
+    background-color: #0b556b;
+    cursor: pointer;
+}
+main {
+    margin: 80px;
+}
