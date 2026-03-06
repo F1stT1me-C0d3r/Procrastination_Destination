@@ -18,23 +18,24 @@ nav {
     background-color: #171d26;
     color:#fff;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding-inline-start: 30px;
     align-items: center;    
     position: fixed;
     top: 0;
     z-index: 1;
 }
 nav ul {
-    display: flex;
+    display: flex;    
     align-items: center;
     flex-wrap: wrap;    
     list-style: none;
-    color: #fff;  
+    color: #fff;     
 }
 nav li a {    
     text-decoration: none;       
-    padding-inline: 1rem;
-    color: #fff;       
+    padding-inline: 1.5rem;
+    color: #fff;        
 }
 nav li a:hover {
     color: #21c1f1;
@@ -49,7 +50,7 @@ nav li a:hover {
 }
 form div {    
     width: max-content;
-    margin-left: 20rem;
+    margin-left: 30rem;
     padding: 10px;
     border-radius: 19px;
     background: #f6f6f6;
