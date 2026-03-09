@@ -80,6 +80,71 @@ form div {
     background-color: #0b556b;
     cursor: pointer;
 }
-main {
-    margin: 80px;
+h1 {
+    font-size: 60px;
 }
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 17px;
+}
+main {
+    margin: 100px;   
+    color: #fff;
+    padding-top: 100px; 
+}
+.home {    
+    display: flex;
+    flex-direction: column;       
+}
+.home button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 150px;
+    height: 60px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #168baf;    
+}
+.home button:hover {
+    cursor: pointer;
+    background-color: #0b556b;
+}
+.contact {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;    
+}
+.contact div {
+    display: flex;
+    flex-direction: column;
+}
+.contact button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 500px;
+    height: 50px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #168baf;    
+}
+.contact button:hover {
+    cursor: pointer;
+    background-color: #0b556b;
+}
+.contact input {
+    background: transparent;
+    font-size: 16px;
+    color: #fff;    
+}
+.contact textarea {
+    background: transparent;
+    font-size: 16px;
+    color: #fff;     
+}
+.about {}
