@@ -180,18 +180,18 @@ main {
     color: #fff;
     border-radius: 10px;
     background-color: #168baf;
-    padding: 5px;
-    align-items: center;
+    padding: 5px;    
+}
+.about ul li button:hover {
+    background-color:#0b556b;
+    cursor: pointer;
 }
 .about ul li h3 {
-    font-size: 50px;
-    align-items: center;
+    font-size: 50px;    
 }
 .about ul li h4 {
-    font-size: 20px;
-    align-items: center;
+    font-size: 20px;    
 }
 .about ul li p {
-    font-size: 15px;
-    align-items: center;
+    font-size: 15px;    
 }
