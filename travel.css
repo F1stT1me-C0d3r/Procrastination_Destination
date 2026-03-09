@@ -163,4 +163,17 @@ main {
 .contact input::placeholder {
     color: #fff;
 }
-.about {}
+.about ul {
+    display: flex;
+    flex-direction: wrap;
+    list-style: none;
+}
+.about ul li {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 144px;
+    padding: 20px;
+        
+}
