@@ -167,13 +167,31 @@ main {
     display: flex;
     flex-direction: wrap;
     list-style: none;
+    padding-left: 30px;
 }
 .about ul li {
-    display: block;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 250px;
     height: 144px;
-    padding: 20px;
-        
+    padding: 20px;        
+}
+.about ul li button {
+    color: #fff;
+    border-radius: 10px;
+    background-color: #168baf;
+    padding: 5px;
+    align-items: center;
+}
+.about ul li h3 {
+    font-size: 50px;
+    align-items: center;
+}
+.about ul li h4 {
+    font-size: 20px;
+    align-items: center;
+}
+.about ul li p {
+    font-size: 15px;
+    align-items: center;
 }
