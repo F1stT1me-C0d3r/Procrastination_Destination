@@ -10,27 +10,27 @@ body {
     background-repeat: no-repeat; /* Prevent tiling */
     background-attachment: fixed; /* Keep image fixed during scroll */
     font-family: Arial, sans-serif;
-    color: black;
+    color: #fff;        
 }
 nav {
-    display: flex;
-    justify-content: start;
+    display: flex;    
     padding-inline-start: 30px;
     align-items: center;
     width: 100%;
     height:75px;
-    background-color: rgb(0, 0, 0, 0.75);
-    color:#fff;        
+    background-color: rgb(0, 0, 0, 0.75);            
     position: fixed;
     top: 0;
     z-index: 1;
+}
+nav svg {
+    align-items: center;
 }
 nav ul {
     display: flex;    
     align-items: center;
     flex-wrap: wrap;    
-    list-style: none;
-    color: #fff;     
+    list-style: none;        
 }
 nav li a {    
     text-decoration: none;       
@@ -64,6 +64,9 @@ form div {
     color: #168baf;
     flex: 1;
 }
+.search input::placeholder {
+    color: #168baf;
+}
 .search button {
     padding: 10px;
     border: none;
@@ -80,6 +83,13 @@ form div {
     background-color: #0b556b;
     cursor: pointer;
 }
+.socialsContainer {
+    margin-top: 160px;
+    float: left;
+}
+.socialsContainer ul {
+    list-style: none;    
+}
 h1 {
     font-size: 60px;
 }
@@ -90,7 +100,7 @@ p {
     font-size: 17px;
 }
 main {
-    margin: 100px;   
+    margin: 80px;   
     color: #fff;
     padding-top: 100px; 
 }
@@ -120,7 +130,7 @@ main {
 }
 .contact div {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
 }
 .contact button {
     padding: 10px;
@@ -146,5 +156,11 @@ main {
     background: transparent;
     font-size: 16px;
     color: #fff;     
+}
+.contact textarea::placeholder {
+    color: #fff;
+}
+.contact input::placeholder {
+    color: #fff;
 }
 .about {}
