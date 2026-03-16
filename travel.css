@@ -212,6 +212,8 @@ main {
 }
 .destStyle ul li img {
     border-radius: 15px 15px 0px 0px;
+    width: 400px;
+    height: 400px;
 }
 .destStyle ul li h4 {
     font-size: 15px;
