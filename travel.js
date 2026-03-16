@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {    
     const searchBtn = document.querySelector('#searchBtn');
     const clearBtn = document.querySelector('#clearBtn');
-    const resultsDiv = document.querySelector('#results');
+    const resultsDiv = document.querySelector('#resultsDiv');
 
     let travelData = { beaches: [], temples: [], countries: [] };
    
