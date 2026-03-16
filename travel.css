@@ -196,25 +196,26 @@ main {
     font-size: 15px;    
 }
 .destStyle ul {
-    
-    list-style: none;       
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .destStyle ul li {
     display: grid;
-    padding: 20px;
-    text-align: center;
+    grid-template-rows: auto 1fr;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 .destStyle ul li div {
-    
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 0px 0px 15px 15px;
-    width: 570px;
+    padding: 16px;
 }
 .destStyle ul li img {
-    border-radius: 15px 15px 0px 0px;
-    width: 590px;
-    height: 400px;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
 }
 .destStyle ul li h4 {
     font-size: 15px;
@@ -234,4 +235,11 @@ main {
 .destStyle ul li button:hover {
     background-color:#0b556b;
     cursor: pointer;
+}
+.destStyle {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 40px 80px 80px;
+    align-items: start;
 }
