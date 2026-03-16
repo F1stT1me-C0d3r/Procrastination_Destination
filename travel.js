@@ -43,8 +43,9 @@ searchBtn.addEventListener('click', () => {
                         <div>
                             <h4>${item.name}</h4>
                             <p>${item.description}</p>
+                            <button>Info...</button>
                         </div>
-                    </li>            
+                    </li>       
                 </ul>
             `;
         });
