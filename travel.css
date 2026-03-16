@@ -195,3 +195,29 @@ main {
 .about ul li p {
     font-size: 15px;    
 }
+
+.destStyle ul {
+    display: flex;
+    flex-direction: wrap;
+    list-style: none;       
+}
+.destStyle ul li {
+    padding: 20px;
+    text-align: center;
+}
+.destStyle ul li div {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+}
+.destStyle ul li img {
+    border-radius: 15px 15px 0px 0px;
+}
+.destStyle ul li h4 {
+    font-size: 15px;
+    color: #21c1f1;
+}
+.destStyle ul li p {
+    font-size: 15px;
+    color: #21c1f1;
+}      
