@@ -150,18 +150,18 @@ main {
 .contact input {
     background: transparent;
     font-size: 16px;
-    color: #fff;    
+    color: #060505;    
 }
 .contact textarea {
     background: transparent;
     font-size: 16px;
-    color: #fff;     
+    color: #060505;     
 }
 .contact textarea::placeholder {
-    color: #fff;
+    color: #060505;
 }
 .contact input::placeholder {
-    color: #fff;
+    color: #060505;
 }
 .about ul {
     display: flex;

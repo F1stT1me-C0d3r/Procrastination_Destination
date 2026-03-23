@@ -2,7 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchBtn = document.querySelector('#searchBtn');
     const clearBtn = document.querySelector('#clearBtn');
     const resultsDiv = document.querySelector('#resultsDiv');
-
+    const nameInput = document.querySelector('#nameInput');
+    const emailInput = document.querySelector('#emailInput');
+    const messageInput = document.querySelector('#messageInput');
+    const submitBtn = document.querySelector('#submitBtn');
+   
     let travelData = { beaches: [], temples: [], countries: [] };
    
 
@@ -27,7 +31,7 @@ searchBtn.addEventListener('click', () => {
         displayResults = travelData.beaches;
     } else if (query.includes('temple')) {
         displayResults = travelData.temples;
-    } else if (query.includes('country') || input.includes('japan')) {
+    } else if (query.includes('country') || query.includes('japan')) {
         displayResults = travelData.countries;
     }
 
@@ -55,7 +59,28 @@ searchBtn.addEventListener('click', () => {
 });
 
 clearBtn.addEventListener('click', () => {
-    searchIn.value = '';
+    document.querySelector('#searchIn').value = '';
     resultsDiv.innerHTML = '';
+});
+
+submitBtn.addEventListener('click', () => {
+    const name = nameInput.value.trim();
+    const email = emailInput.value.trim();
+    const message = messageInput.value.trim();    
+
+    // Basic validation
+    if (!name || !email || !message) {
+        alert('Please fill in all fields.');
+        return;
+    }
+    
+    console.error('Error submitting contact form:', { name, email, message });
+
+    // Here you would typically send the data to a server
+    console.log({ name, email, message });
+    alert('Message sent successfully!');
+    nameInput.value = '';
+    emailInput.value = '';
+    messageInput.value = '';
 });
 });
