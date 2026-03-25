@@ -1,5 +1,5 @@
 body {
-    overflow-x: scroll;
+    overflow-x: auto;
     margin: 0; /* Remove default margin */
     padding: 0;
     height: 100vh; /* Full viewport height */
@@ -41,8 +41,7 @@ nav li a:hover {
     cursor: pointer;
     color: #21c1f1;    
 }
-.logo {         
-    float: left;
+.logo {        
     padding-right: 25rem;
 }
 form div {    
@@ -165,7 +164,6 @@ main {
 }
 .about ul {
     display: flex;
-    flex-direction: wrap;
     list-style: none;
     padding-left: 30px;
 }
