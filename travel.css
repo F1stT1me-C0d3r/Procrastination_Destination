@@ -241,3 +241,28 @@ main {
     margin: 40px 80px 80px;
     align-items: start;
 }
+.display-repo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    font: #fff;
+    background-color: rgba(0, 0, 0, 0.471);
+    width: 800px;
+    height: 800px;
+}
+.display-repo button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 500px;
+    height: 50px;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #168baf;    
+}
+.display-repo button:hover {
+    cursor: pointer;
+    background-color: #0b556b;
+}
