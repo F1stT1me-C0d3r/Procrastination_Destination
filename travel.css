@@ -174,20 +174,28 @@ main {
     height: 144px;
     padding: 20px;        
 }
+.about ul li div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .about ul li button {
     color: #fff;
     border-radius: 10px;
-    background-color: #168baf;
-    padding: 5px;    
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 5px;
+    width: 10vw;
 }
 .about ul li button:hover {
-    background-color:#0b556b;
+    background-color: rgb(0, 0, 0, 1);
     cursor: pointer;
 }
 .about ul li h3 {
     font-size: 50px;    
 }
 .about ul li h4 {
+    text-align: center;
     font-size: 20px;    
 }
 .about ul li p {
@@ -265,4 +273,20 @@ main {
 .display-repo button:hover {
     cursor: pointer;
     background-color: #0b556b;
+}
+.director-popup {
+   
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;    
+    text-align: center;
+    font-size: 1.2em;
+}
+.director-popup:hover {
+    display: block;
+    background-color: rgb(0, 0, 0, 1);
+    cursor: pointer;    
+    padding: 20px;
+    
 }
