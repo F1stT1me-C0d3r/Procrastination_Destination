@@ -286,7 +286,7 @@ main {
 .director-popup:hover {
     display: block;
     background-color: rgb(0, 0, 0, 1);
-    cursor: pointer;    
+        
     padding: 20px;
-    
+
 }
