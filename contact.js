@@ -4,6 +4,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const messageInput = document.querySelector('#messageInput');
     const submitBtn = document.querySelector('#submitBtn');
     const displayRepo = document.querySelector('#displayRepo');
+
+
+    function dontShowRepo() {        
+        displayRepo.style.visibility = "hidden";
+        displayRepo.style.backgroundColor = "none";    
+    };
+
+    function showRepo() {
+        displayRepo.style.visibility = "visible";
+        displayRepo.style.backgroundColor = "rgba(0, 0, 0, 0.471)";
+    };
+
+    dontShowRepo();
     
     document.addEventListener('click', (e) => {
         if (e.target.id === 'clearDisplayBtn') {
@@ -23,8 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!name || !email || !message) {
             alert('Please fill in all fields.');
             return;
-        }
-        
+        }        
+        showRepo();
         displayRepo.innerHTML = `
             <h3>Submitted Information:</h3>
             <p><strong>Name:</strong> ${name}</p>
@@ -40,4 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
         emailInput.value = '';
         messageInput.value = '';
     });
+
+
 });

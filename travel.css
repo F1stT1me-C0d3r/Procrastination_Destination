@@ -250,14 +250,14 @@ main {
     align-items: start;
 }
 .display-repo {
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;    
     margin-top: 20px;
     font: #fff;
     background-color: rgba(0, 0, 0, 0.471);
-    width: 800px;
-    height: 800px;
+    width: 50% vw;
+    height: 30% vh;
 }
 .display-repo button {
     padding: 10px;
