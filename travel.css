@@ -290,3 +290,19 @@ main {
     padding: 20px;
 
 }
+.info-input {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;    
+    text-align: center;
+    font-size: 1.2em;
+}
+.info-input input, .info-input textarea {
+    background: transparent;
+    font-size: 16px;
+    color: #fff;    
+}
+.info-input input::placeholder, .info-input textarea::placeholder {
+    color: #fff;
+}   
